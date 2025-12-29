@@ -1,0 +1,452 @@
+[
+  {
+    "id": 1,
+    "name": "Olper's",
+    "price": "Rs. 55.80",
+    "savePrice": "Rs. 60.00",
+    "priceOff": "8% off",
+    "quieantity": "Olper's Full Cream Milk Ecolean 125ml",
+    "image": "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?w=800&q=80"
+  },
+  {
+    "id": 2,
+    "name": "Save Chicken",
+    "price": "Rs. 594.15",
+    "savePrice": "Rs. 699.00",
+    "priceOff": "15% off",
+    "quieantity": "Brightfarms Chicken Karhai Cut 1kg",
+    "image": "https://images.unsplash.com/photo-1587593810167-a84920ea0781?w=800&q=80"
+  },
+  {
+    "id": 3,
+    "name": "Tapal Danedar",
+    "price": "Rs. 530.00",
+    "savePrice": "Rs. 580.00",
+    "priceOff": "9% off",
+    "quieantity": "Tapal Danedar Tea 430g pouch",
+    "image": "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?w=800&q=80"
+  },
+  {
+    "id": 4,
+    "name": "Sufi Cooking Oil",
+    "price": "Rs. 2450.00",
+    "savePrice": "Rs. 2600.00",
+    "priceOff": "6% off",
+    "quieantity": "Sufi Sunflower Oil 5 Litre Tin",
+    "image": "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?w=800&q=80"
+  },
+  {
+    "id": 5,
+    "name": "National Ketchup",
+    "price": "Rs. 410.00",
+    "savePrice": "Rs. 450.00",
+    "priceOff": "10% off",
+    "quieantity": "National Tomato Ketchup 800g Pouch",
+    "image": "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?w=800&q=80"
+  },
+  {
+    "id": 6,
+    "name": "Basmati Rice",
+    "price": "Rs. 320.00",
+    "savePrice": "Rs. 350.00",
+    "priceOff": "9% off",
+    "quieantity": "Guard Supreme Basmati Rice 1kg",
+    "image": "https://images.unsplash.com/photo-1586201375761-83865001e31c?w=800&q=80"
+  },
+  {
+    "id": 7,
+    "name": "Surf Excel",
+    "price": "Rs. 580.00",
+    "savePrice": "Rs. 620.00",
+    "priceOff": "7% off",
+    "quieantity": "Surf Excel Washing Powder 1kg",
+    "image": "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?w=800&q=80"
+  },
+  {
+    "id": 8,
+    "name": "Lux Soap",
+    "price": "Rs. 145.00",
+    "savePrice": "Rs. 160.00",
+    "priceOff": "10% off",
+    "quieantity": "Lux Soft Touch Soap 150g",
+    "image": "https://images.unsplash.com/photo-1600857544200-b2f666a9a2ec?w=800&q=80"
+  },
+  {
+    "id": 9,
+    "name": "Knorr Noodles",
+    "price": "Rs. 235.00",
+    "savePrice": "Rs. 250.00",
+    "priceOff": "6% off",
+    "quieantity": "Knorr Chattpata Noodles Pack of 5",
+    "image": "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?w=800&q=80"
+  },
+  {
+    "id": 10,
+    "name": "Coca Cola",
+    "price": "Rs. 175.00",
+    "savePrice": "Rs. 190.00",
+    "priceOff": "8% off",
+    "quieantity": "Coca Cola 1.5 Litre Bottle",
+    "image": "https://images.unsplash.com/photo-1622483767028-3f66f32aef97?w=800&q=80"
+  },
+  {
+    "id": 11,
+    "name": "Milkpak",
+    "price": "Rs. 265.00",
+    "savePrice": "Rs. 280.00",
+    "priceOff": "5% off",
+    "quieantity": "Nestle Milkpak 1 Litre",
+    "image": "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?w=800&q=80"
+  },
+  {
+    "id": 12,
+    "name": "Dalda Ghee",
+    "price": "Rs. 510.00",
+    "savePrice": "Rs. 540.00",
+    "priceOff": "6% off",
+    "quieantity": "Dalda Banaspati Ghee 1kg Pouch",
+    "image": "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?w=800&q=80"
+  },
+  {
+    "id": 13,
+    "name": "Shan Masala",
+    "price": "Rs. 95.00",
+    "savePrice": "Rs. 110.00",
+    "priceOff": "13% off",
+    "quieantity": "Shan Bombay Biryani Masala 50g",
+    "image": "https://images.unsplash.com/photo-1596040033229-a9821ebd058d?w=800&q=80"
+  },
+  {
+    "id": 14,
+    "name": "Lipton Tea",
+    "price": "Rs. 1150.00",
+    "savePrice": "Rs. 1250.00",
+    "priceOff": "8% off",
+    "quieantity": "Lipton Yellow Label 900g",
+    "image": "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?w=800&q=80"
+  },
+  {
+    "id": 15,
+    "name": "Wheat Flour",
+    "price": "Rs. 1350.00",
+    "savePrice": "Rs. 1500.00",
+    "priceOff": "10% off",
+    "quieantity": "Bake Parlor Chakki Atta 10kg",
+    "image": "https://images.unsplash.com/photo-1509440159596-0249088772ff?w=800&q=80"
+  },
+  {
+    "id": 16,
+    "name": "Eggs",
+    "price": "Rs. 380.00",
+    "savePrice": "Rs. 420.00",
+    "priceOff": "10% off",
+    "quieantity": "Farm Fresh Eggs Dozen",
+    "image": "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?w=800&q=80"
+  },
+  {
+    "id": 17,
+    "name": "Beef Keema",
+    "price": "Rs. 850.00",
+    "savePrice": "Rs. 950.00",
+    "priceOff": "11% off",
+    "quieantity": "Lean Beef Mince 1kg",
+    "image": "https://images.unsplash.com/photo-1588168333986-5078d3ae3976?w=800&q=80"
+  },
+  {
+    "id": 18,
+    "name": "Potato",
+    "price": "Rs. 75.00",
+    "savePrice": "Rs. 90.00",
+    "priceOff": "17% off",
+    "quieantity": "Fresh Potato 1kg",
+    "image": "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?w=800&q=80"
+  },
+  {
+    "id": 19,
+    "name": "Onion",
+    "price": "Rs. 180.00",
+    "savePrice": "Rs. 220.00",
+    "priceOff": "18% off",
+    "quieantity": "Red Onion Fresh 1kg",
+    "image": "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?w=800&q=80"
+  },
+  {
+    "id": 20,
+    "name": "Tomato",
+    "price": "Rs. 120.00",
+    "savePrice": "Rs. 150.00",
+    "priceOff": "20% off",
+    "quieantity": "Fresh Tomato 1kg",
+    "image": "https://images.unsplash.com/photo-1518977822534-7049a61ee0c2?w=800&q=80"
+  },
+  {
+    "id": 21,
+    "name": "Sensodyne",
+    "price": "Rs. 290.00",
+    "savePrice": "Rs. 320.00",
+    "priceOff": "9% off",
+    "quieantity": "Sensodyne Rapid Relief 70g",
+    "image": "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?w=800&q=80"
+  },
+  {
+    "id": 22,
+    "name": "Head & Shoulders",
+    "price": "Rs. 450.00",
+    "savePrice": "Rs. 500.00",
+    "priceOff": "10% off",
+    "quieantity": "Anti-Dandruff Shampoo 180ml",
+    "image": "https://images.unsplash.com/photo-1535585209827-a15fcdbc4c2d?w=800&q=80"
+  },
+  {
+    "id": 23,
+    "name": "Lifebuoy Handwash",
+    "price": "Rs. 310.00",
+    "savePrice": "Rs. 350.00",
+    "priceOff": "11% off",
+    "quieantity": "Lifebuoy Total 10 Handwash 200ml",
+    "image": "https://images.unsplash.com/photo-1603052875302-d376b7c0638a?w=800&q=80"
+  },
+  {
+    "id": 24,
+    "name": "Dettol Antiseptic",
+    "price": "Rs. 480.00",
+    "savePrice": "Rs. 520.00",
+    "priceOff": "8% off",
+    "quieantity": "Dettol Liquid 500ml",
+    "image": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=800&q=80"
+  },
+  {
+    "id": 25,
+    "name": "Tang Orange",
+    "price": "Rs. 720.00",
+    "savePrice": "Rs. 800.00",
+    "priceOff": "10% off",
+    "quieantity": "Tang Orange Instant Drink 750g",
+    "image": "https://images.unsplash.com/photo-1621506289937-a8e4df240d0b?w=800&q=80"
+  },
+  {
+    "id": 26,
+    "name": "Lays Chips",
+    "price": "Rs. 95.00",
+    "savePrice": "Rs. 100.00",
+    "priceOff": "5% off",
+    "quieantity": "Lays Masala Family Pack",
+    "image": "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?w=800&q=80"
+  },
+  {
+    "id": 27,
+    "name": "Nestle Yogurt",
+    "price": "Rs. 185.00",
+    "savePrice": "Rs. 200.00",
+    "priceOff": "7% off",
+    "quieantity": "Nestle Sweet & Tasty Yogurt 400g",
+    "image": "https://images.unsplash.com/photo-1488477181946-6428a0291777?w=800&q=80"
+  },
+  {
+    "id": 28,
+    "name": "Young's Mayo",
+    "price": "Rs. 490.00",
+    "savePrice": "Rs. 550.00",
+    "priceOff": "11% off",
+    "quieantity": "Young's French Mayonnaise 500ml",
+    "image": "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?w=800&q=80"
+  },
+  {
+    "id": 29,
+    "name": "Blue Band",
+    "price": "Rs. 320.00",
+    "savePrice": "Rs. 350.00",
+    "priceOff": "9% off",
+    "quieantity": "Blue Band Margarine 250g",
+    "image": "https://images.unsplash.com/photo-1589985270826-4b7bb135bc9d?w=800&q=80"
+  },
+  {
+    "id": 30,
+    "name": "Dawn Bread",
+    "price": "Rs. 140.00",
+    "savePrice": "Rs. 150.00",
+    "priceOff": "7% off",
+    "quieantity": "Dawn Milky Bread Large",
+    "image": "https://images.unsplash.com/photo-1509440159596-0249088772ff?w=800&q=80"
+  },
+  {
+    "id": 31,
+    "name": "Vital Tea",
+    "price": "Rs. 1080.00",
+    "savePrice": "Rs. 1200.00",
+    "priceOff": "10% off",
+    "quieantity": "Vital Tea Pouch 900g",
+    "image": "https://images.unsplash.com/photo-1564890369478-c89ca6d9cde9?w=800&q=80"
+  },
+  {
+    "id": 32,
+    "name": "Nestle Nescafe",
+    "price": "Rs. 1450.00",
+    "savePrice": "Rs. 1600.00",
+    "priceOff": "9% off",
+    "quieantity": "Nescafe Classic Coffee Jar 200g",
+    "image": "https://images.unsplash.com/photo-1559056199-641a0ac8b55e?w=800&q=80"
+  },
+  {
+    "id": 33,
+    "name": "Pampers",
+    "price": "Rs. 2850.00",
+    "savePrice": "Rs. 3200.00",
+    "priceOff": "11% off",
+    "quieantity": "Pampers Baby Dry Size 4 50pcs",
+    "image": "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?w=800&q=80"
+  },
+  {
+    "id": 34,
+    "name": "Colgate Toothpaste",
+    "price": "Rs. 240.00",
+    "savePrice": "Rs. 270.00",
+    "priceOff": "11% off",
+    "quieantity": "Colgate Max Fresh 100g",
+    "image": "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?w=800&q=80"
+  },
+  {
+    "id": 35,
+    "name": "Ariel Detergent",
+    "price": "Rs. 1250.00",
+    "savePrice": "Rs. 1400.00",
+    "priceOff": "11% off",
+    "quieantity": "Ariel Machine Expert 2kg",
+    "image": "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?w=800&q=80"
+  },
+  {
+    "id": 36,
+    "name": "Vim Liquid",
+    "price": "Rs. 380.00",
+    "savePrice": "Rs. 420.00",
+    "priceOff": "10% off",
+    "quieantity": "Vim Dishwash Liquid 500ml",
+    "image": "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?w=800&q=80"
+  },
+  {
+    "id": 37,
+    "name": "Mezan Oil",
+    "price": "Rs. 495.00",
+    "savePrice": "Rs. 540.00",
+    "priceOff": "8% off",
+    "quieantity": "Mezan Cooking Oil 1 Litre Pouch",
+    "image": "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?w=800&q=80"
+  },
+  {
+    "id": 38,
+    "name": "Banana",
+    "price": "Rs. 140.00",
+    "savePrice": "Rs. 180.00",
+    "priceOff": "22% off",
+    "quieantity": "Fresh Banana 1 Dozen",
+    "image": "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?w=800&q=80"
+  },
+  {
+    "id": 39,
+    "name": "Apple",
+    "price": "Rs. 260.00",
+    "savePrice": "Rs. 300.00",
+    "priceOff": "13% off",
+    "quieantity": "Kala Kulu Apple 1kg",
+    "image": "https://images.unsplash.com/photo-1560806887-1e4cd0b6cbd6?w=800&q=80"
+  },
+  {
+    "id": 40,
+    "name": "National Pickle",
+    "price": "Rs. 320.00",
+    "savePrice": "Rs. 360.00",
+    "priceOff": "11% off",
+    "quieantity": "National Mixed Pickle Jar 1kg",
+    "image": "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?w=800&q=80"
+  },
+  {
+    "id": 41,
+    "name": "Sugar",
+    "price": "Rs. 145.00",
+    "savePrice": "Rs. 160.00",
+    "priceOff": "9% off",
+    "quieantity": "Refined White Sugar 1kg",
+    "image": "https://images.unsplash.com/photo-1581441363689-1f3c3c414635?w=800&q=80"
+  },
+  {
+    "id": 42,
+    "name": "Salt",
+    "price": "Rs. 50.00",
+    "savePrice": "Rs. 60.00",
+    "priceOff": "17% off",
+    "quieantity": "National Iodized Salt 800g",
+    "image": "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?w=800&q=80"
+  },
+  {
+    "id": 43,
+    "name": "Red Chilli",
+    "price": "Rs. 210.00",
+    "savePrice": "Rs. 250.00",
+    "priceOff": "16% off",
+    "quieantity": "Shan Red Chilli Powder 200g",
+    "image": "https://images.unsplash.com/photo-1599488615731-7e5c2823ff28?w=800&q=80"
+  },
+  {
+    "id": 44,
+    "name": "Fairy Liquid",
+    "price": "Rs. 980.00",
+    "savePrice": "Rs. 1100.00",
+    "priceOff": "11% off",
+    "quieantity": "Fairy Lemon Dishwash 750ml",
+    "image": "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?w=800&q=80"
+  },
+  {
+    "id": 45,
+    "name": "Everyday",
+    "price": "Rs. 1850.00",
+    "savePrice": "Rs. 2000.00",
+    "priceOff": "7% off",
+    "quieantity": "Nestle Everyday Tea Whitener 850g",
+    "image": "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?w=800&q=80"
+  },
+  {
+    "id": 46,
+    "name": "Rooh Afza",
+    "price": "Rs. 450.00",
+    "savePrice": "Rs. 490.00",
+    "priceOff": "8% off",
+    "quieantity": "Hamdard Rooh Afza 800ml",
+    "image": "https://images.unsplash.com/photo-1621506289937-a8e4df240d0b?w=800&q=80"
+  },
+  {
+    "id": 47,
+    "name": "Biscuit",
+    "price": "Rs. 115.00",
+    "savePrice": "Rs. 130.00",
+    "priceOff": "12% off",
+    "quieantity": "Sooper Biscuits Family Pack",
+    "image": "https://images.unsplash.com/photo-1558961363-fa8fdf82db35?w=800&q=80"
+  },
+  {
+    "id": 48,
+    "name": "Honey",
+    "price": "Rs. 950.00",
+    "savePrice": "Rs. 1100.00",
+    "priceOff": "14% off",
+    "quieantity": "Salman's Pure Honey 500g",
+    "image": "https://images.unsplash.com/photo-1587049352846-4a222e784d38?w=800&q=80"
+  },
+  {
+    "id": 49,
+    "name": "Olper's Cheese",
+    "price": "Rs. 640.00",
+    "savePrice": "Rs. 720.00",
+    "priceOff": "11% off",
+    "quieantity": "Olper's Mozzarella Cheese 200g",
+    "image": "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?w=800&q=80"
+  },
+  {
+    "id": 50,
+    "name": "Garlic",
+    "price": "Rs. 450.00",
+    "savePrice": "Rs. 500.00",
+    "priceOff": "10% off",
+    "quieantity": "Fresh Garlic (Lahsun) 500g",
+    "image": "https://images.unsplash.com/photo-1540148426945-6cf22a6b2383?w=800&q=80"
+  }
+]

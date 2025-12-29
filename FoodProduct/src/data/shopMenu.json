@@ -1,0 +1,642 @@
+[
+  {
+    "id": 1,
+    "name": "Pandamart – Blue Area",
+    "deliveryTime": "25–40 min",
+    "isAd": false,
+    "discount": null,
+    "isFreeDelivery": true,
+    "image": "https://images.unsplash.com/photo-1526234362653-3b75a0c07438?w=800",
+    "menu": [
+      { "id": 101, "name": "Fresh Milk 1L", "price": 260, "desc": "Pure farm fresh milk packet.", "img": "https://images.unsplash.com/photo-1563636619-e9107da5a766?w=400" },
+      { "id": 102, "name": "Large Bread", "price": 190, "desc": "Freshly baked sandwich bread.", "img": "https://images.unsplash.com/photo-1509440159596-0249088772ff?w=400" },
+      { "id": 103, "name": "Eggs (Dozen)", "price": 420, "desc": "Fresh poultry eggs.", "img": "https://images.unsplash.com/photo-1518562180175-34a163b1a9a6?w=400" },
+      { "id": 104, "name": "Basmati Rice 1kg", "price": 480, "desc": "Premium long grain rice.", "img": "https://images.unsplash.com/photo-1586201375761-83865001e31c?w=400" },
+      { "id": 105, "name": "Cooking Oil 1L", "price": 550, "desc": "Sunflower refined oil.", "img": "https://images.unsplash.com/photo-1474979266404-7eaacabc88c5?w=400" }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Shafique Kayani Super Store",
+    "deliveryTime": "15–30 min",
+    "isAd": true,
+    "discount": "Rs.150 off Rs.2500",
+    "isFreeDelivery": true,
+    "image": "https://images.unsplash.com/photo-1542838132-92c53300491e?w=800",
+    "menu": [
+      { "id": 201, "name": "Atta 10kg", "price": 1450, "desc": "Fine quality whole wheat flour.", "img": "https://images.unsplash.com/photo-1509440159596-0249088772ff?w=400" },
+      { "id": 202, "name": "Sugar 1kg", "price": 155, "desc": "Refined white sugar.", "img": "https://images.unsplash.com/photo-1622484210922-38318182281b?w=400" },
+      { "id": 203, "name": "Tea 450g", "price": 950, "desc": "Strong aromatic black tea.", "img": "https://images.unsplash.com/photo-1544787210-222004128fd9?w=400" },
+      { "id": 204, "name": "Lentils Mix 1kg", "price": 320, "desc": "Pack of mixed pulses.", "img": "https://images.unsplash.com/photo-1515942400420-2b98fed1f515?w=400" },
+      { "id": 205, "name": "Mineral Water 1.5L", "price": 90, "desc": "Pure drinking water.", "img": "https://images.unsplash.com/photo-1560023907-5f339617ea30?w=400" }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Fruity Vapes – F-10",
+    "deliveryTime": "10–25 min",
+    "isAd": true,
+    "discount": null,
+    "isFreeDelivery": true,
+    "image": "https://images.unsplash.com/photo-1610832958506-aa56368176cf?w=800",
+    "menu": [
+      { "id": 301, "name": "Mango Pods", "price": 2500, "desc": "Sweet mango flavored vape pods.", "img": "https://images.unsplash.com/photo-1527113353645-0d65f57321e8?w=400" },
+      { "id": 302, "name": "Mint Coolant", "price": 1800, "desc": "Refreshing menthol liquid.", "img": "https://images.unsplash.com/photo-1559183030-914b8a146911?w=400" },
+      { "id": 303, "name": "Starter Kit", "price": 8500, "desc": "Complete vape device kit.", "img": "https://images.unsplash.com/photo-1542332606-b3d270f20614?w=400" },
+      { "id": 304, "name": "USB Charger", "price": 500, "desc": "Fast charging vape cable.", "img": "https://images.unsplash.com/photo-1583863788434-e58a36330cf0?w=400" },
+      { "id": 305, "name": "Replacement Coils", "price": 1200, "desc": "High quality heating coils.", "img": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=400" }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Punjab Milk Shop (F10)",
+    "deliveryTime": "15–30 min",
+    "isAd": true,
+    "discount": null,
+    "isFreeDelivery": true,
+    "image": "https://images.unsplash.com/photo-1563636619-e9107da5a766?w=800",
+    "menu": [
+      { "id": 401, "name": "Desi Ghee 1kg", "price": 2200, "desc": "Pure buffalo butter fat.", "img": "https://images.unsplash.com/photo-1589927986089-35812388d1f4?w=400" },
+      { "id": 402, "name": "Khalis Doodh", "price": 220, "desc": "Unprocessed fresh cow milk.", "img": "https://images.unsplash.com/photo-1550583724-125581bf355d?w=400" },
+      { "id": 403, "name": "Fresh Paneer", "price": 900, "desc": "Soft homemade cottage cheese.", "img": "https://images.unsplash.com/photo-1559561853-08451507cbe7?w=400" },
+      { "id": 404, "name": "Khoya 500g", "price": 750, "desc": "Dried evaporated milk solids.", "img": "https://images.unsplash.com/photo-1588710920403-d636ca4442aa?w=400" },
+      { "id": 405, "name": "Dahi (Curd)", "price": 160, "desc": "Thick creamy homemade yogurt.", "img": "https://images.unsplash.com/photo-1488477181946-6428a0291777?w=400" }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Esajee's (Kohsar Market)",
+    "deliveryTime": "20–35 min",
+    "isAd": false,
+    "discount": "10% OFF",
+    "isFreeDelivery": true,
+    "image": "https://images.unsplash.com/photo-1534723452862-4c874018d66d?w=800",
+    "menu": [
+      { "id": 501, "name": "Imported Chocolate", "price": 1200, "desc": "Swiss dark chocolate bar.", "img": "https://images.unsplash.com/photo-1511381939415-e44015466834?w=400" },
+      { "id": 502, "name": "Organic Honey", "price": 1500, "desc": "Pure wild flower honey.", "img": "https://images.unsplash.com/photo-1587049352846-4a222e784d38?w=400" },
+      { "id": 503, "name": "Roasted Cashews", "price": 1800, "desc": "Salted premium cashews.", "img": "https://images.unsplash.com/photo-1509911595703-a121ff8f9733?w=400" },
+      { "id": 504, "name": "Olive Oil 500ml", "price": 2200, "desc": "Extra virgin olive oil.", "img": "https://images.unsplash.com/photo-1474979266404-7eaacabc88c5?w=400" },
+      { "id": 505, "name": "Green Tea Bags", "price": 650, "desc": "Premium herbal tea.", "img": "https://images.unsplash.com/photo-1627435601361-ec25f5b1d0e5?w=400" }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Pizza Hut (F-6 Markaz)",
+    "deliveryTime": "25–40 min",
+    "isAd": false,
+    "discount": "Flat 20% Off",
+    "isFreeDelivery": false,
+    "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=800",
+    "menu": [
+      { "id": 601, "name": "Chicken Tikka Pizza", "price": 1350, "desc": "Classic tikka with mozzarella.", "img": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=400" },
+      { "id": 602, "name": "Garlic Bread", "price": 350, "desc": "Buttery herb garlic bread.", "img": "https://images.unsplash.com/photo-1573140247632-f8fd74997d5c?w=400" },
+      { "id": 603, "name": "Fajita Pizza", "price": 1450, "desc": "Spicy chicken and peppers.", "img": "https://images.unsplash.com/photo-1593560708920-61dd98c46a4e?w=400" },
+      { "id": 604, "name": "Potato Wedges", "price": 400, "desc": "Crispy seasoned potato slices.", "img": "https://images.unsplash.com/photo-1518310383802-640c2de311b2?w=400" },
+      { "id": 605, "name": "Cold Drink 1.5L", "price": 220, "desc": "Chilled carbonated drink.", "img": "https://images.unsplash.com/photo-1622483767028-3f66f32aef97?w=400" }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "McDonald's (Blue Area)",
+    "deliveryTime": "15–30 min",
+    "isAd": false,
+    "discount": null,
+    "isFreeDelivery": true,
+    "image": "https://images.unsplash.com/photo-1561758033-d89a9ad46330?w=800",
+    "menu": [
+      { "id": 701, "name": "Big Mac", "price": 950, "desc": "Double beef patty iconic burger.", "img": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=400" },
+      { "id": 702, "name": "McChicken", "price": 680, "desc": "Crispy chicken fillet burger.", "img": "https://images.unsplash.com/photo-1510627489930-0c1b0ba84674?w=400" },
+      { "id": 703, "name": "Nuggets 9pcs", "price": 850, "desc": "Golden chicken nuggets.", "img": "https://images.unsplash.com/photo-1562967914-608f82629710?w=400" },
+      { "id": 704, "name": "McFlurry", "price": 450, "desc": "Vanilla ice cream with Oreo.", "img": "https://images.unsplash.com/photo-1579954115545-a95591f28be0?w=400" },
+      { "id": 705, "name": "Large Fries", "price": 420, "desc": "World famous golden fries.", "img": "https://images.unsplash.com/photo-1573080496219-bb080dd4f877?w=400" }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Subway (G-6)",
+    "deliveryTime": "20–35 min",
+    "isAd": false,
+    "discount": "Deal of the Day",
+    "isFreeDelivery": true,
+    "image": "https://images.unsplash.com/photo-1590947132387-155cc02f3212?w=800",
+    "menu": [
+      { "id": 801, "name": "Chicken Teriyaki 6\"", "price": 850, "desc": "Sweet onion chicken teriyaki.", "img": "https://images.unsplash.com/photo-1534353473418-4cfa6c56fd38?w=400" },
+      { "id": 802, "name": "Roasted Beef 6\"", "price": 950, "desc": "Lean roast beef with veggies.", "img": "https://images.unsplash.com/photo-1553909489-cd47e0907d3f?w=400" },
+      { "id": 803, "name": "Subway Club", "price": 1050, "desc": "Turkey, roast beef and ham.", "img": "https://images.unsplash.com/photo-1509722747041-619f35d5924d?w=400" },
+      { "id": 804, "name": "Chocolate Cookie", "price": 150, "desc": "Soft baked chocolate chip.", "img": "https://images.unsplash.com/photo-1499636136210-6f4ee915583e?w=400" },
+      { "id": 805, "name": "Italian BMT", "price": 990, "desc": "Salami, pepperoni and ham.", "img": "https://images.unsplash.com/photo-1619096279114-4260067f5011?w=400" }
+    ]
+  },
+  {
+    "id": 9,
+    "name": "KFC (F-7)",
+    "deliveryTime": "20–35 min",
+    "isAd": false,
+    "discount": null,
+    "isFreeDelivery": true,
+    "image": "https://images.deliveryhero.io/image/fd-pk/LH/v8tm-hero.jpg",
+    "menu": [
+      { "id": 901, "name": "Zinger Burger", "price": 590, "desc": "Crunchy chicken with lettuce.", "img": "https://images.unsplash.com/photo-1550547660-d9450f859349?w=400" },
+      { "id": 902, "name": "Hot Wings 10pcs", "price": 650, "desc": "Spicy signature wings.", "img": "https://images.unsplash.com/photo-1527477396000-e27163b481c2?w=400" },
+      { "id": 903, "name": "Mighty Zinger", "price": 850, "desc": "Double patty with cheese.", "img": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=400" },
+      { "id": 904, "name": "Dinner Box", "price": 1150, "desc": "3pcs chicken, fries & drink.", "img": "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?w=400" },
+      { "id": 905, "name": "Krunch Burger", "price": 320, "desc": "Classic economy burger.", "img": "https://images.unsplash.com/photo-1594212699903-ec8a3eca50f5?w=400" }
+    ]
+  },
+  {
+    "id": 10,
+    "name": "OPT Pizzeria (F-10)",
+    "deliveryTime": "30–45 min",
+    "isAd": true,
+    "discount": "Buy 1 Get 1",
+    "isFreeDelivery": true,
+    "image": "https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=800",
+    "menu": [
+      { "id": 1001, "name": "Margherita Large", "price": 1200, "desc": "Classic cheese and tomato.", "img": "https://images.unsplash.com/photo-1574071318508-1cdbad80ad50?w=400" },
+      { "id": 1002, "name": "Pepperoni Feast", "price": 1500, "desc": "Loaded with beef pepperoni.", "img": "https://images.unsplash.com/photo-1628840042765-356cda07504e?w=400" },
+      { "id": 1003, "name": "Veggie Delight", "price": 1100, "desc": "Fresh mix of garden veggies.", "img": "https://images.unsplash.com/photo-1571407970349-bc81e7e96d47?w=400" },
+      { "id": 1004, "name": "BBQ Chicken Pizza", "price": 1400, "desc": "Smoky BBQ sauce and chicken.", "img": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=400" },
+      { "id": 1005, "name": "Cheesy Breadsticks", "price": 450, "desc": "Warm sticks with garlic dip.", "img": "https://images.unsplash.com/photo-1573140247632-f8fd74997d5c?w=400" }
+    ]
+  },
+  {
+    "id": 11,
+    "name": "The Burger House (F-11)",
+    "deliveryTime": "25–40 min",
+    "isAd": false,
+    "discount": null,
+    "isFreeDelivery": true,
+    "image": "https://images.unsplash.com/photo-1467003909585-2f8a72700288?w=800",
+    "menu": [
+      { "id": 1101, "name": "Classic Beef Burger", "price": 750, "desc": "Grilled beef with house sauce.", "img": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=400" },
+      { "id": 1102, "name": "Cheese Lava Burger", "price": 950, "desc": "Stuffed with liquid cheese.", "img": "https://images.unsplash.com/photo-1594212699903-ec8a3eca50f5?w=400" },
+      { "id": 1103, "name": "Grilled Chicken Sub", "price": 650, "desc": "Healthy grilled chicken breast.", "img": "https://images.unsplash.com/photo-1553909489-cd47e0907d3f?w=400" },
+      { "id": 1104, "name": "Curly Fries", "price": 350, "desc": "Seasoned spiral cut potatoes.", "img": "https://images.unsplash.com/photo-1573080496219-bb080dd4f877?w=400" },
+      { "id": 1105, "name": "Mint Margarita", "price": 300, "desc": "Fresh lemon and mint drink.", "img": "https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?w=400" }
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Hardee's (G-9)",
+    "deliveryTime": "20–35 min",
+    "isAd": false,
+    "discount": "Rs. 200 Cashback",
+    "isFreeDelivery": true,
+    "image": "https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=800",
+    "menu": [
+      { "id": 1201, "name": "Famous Star", "price": 1100, "desc": "Charbroiled beef patty burger.", "img": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=400" },
+      { "id": 1202, "name": "Super Star", "price": 1500, "desc": "Double charbroiled beef.", "img": "https://images.unsplash.com/photo-1594212699903-ec8a3eca50f5?w=400" },
+      { "id": 1203, "name": "Chicken Fillet", "price": 950, "desc": "Classic breaded chicken.", "img": "https://images.unsplash.com/photo-1510627489930-0c1b0ba84674?w=400" },
+      { "id": 1204, "name": "Hand-Breaded Tenders", "price": 850, "desc": "3pcs chicken strips.", "img": "https://images.unsplash.com/photo-1562967914-608f82629710?w=400" },
+      { "id": 1205, "name": "Loaded Fries", "price": 550, "desc": "Fries with cheese & ranch.", "img": "https://images.unsplash.com/photo-1585109649139-366815a0d713?w=400" }
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Nando's (Blue Area)",
+    "deliveryTime": "25–40 min",
+    "isAd": false,
+    "discount": null,
+    "isFreeDelivery": false,
+    "image": "https://images.unsplash.com/photo-1559058789-672da06263d8?w=800",
+    "menu": [
+      { "id": 1301, "name": "Quarter Chicken", "price": 950, "desc": "Flame grilled peri-peri chicken.", "img": "https://images.unsplash.com/photo-1598515214211-89d3c73ae83b?w=400" },
+      { "id": 1302, "name": "Half Chicken", "price": 1750, "desc": "Perfect for two people.", "img": "https://images.unsplash.com/photo-1527477396000-e27163b481c2?w=400" },
+      { "id": 1303, "name": "Espetada", "price": 2200, "desc": "Chicken thighs with peppers.", "img": "https://images.unsplash.com/photo-1603360946369-dc9bb6258143?w=400" },
+      { "id": 1304, "name": "Peri-Peri Fries", "price": 350, "desc": "Spiced crispy fries.", "img": "https://images.unsplash.com/photo-1573080496219-bb080dd4f877?w=400" },
+      { "id": 1305, "name": "Garlic Roll", "price": 150, "desc": "Toasted buttery bread.", "img": "https://images.unsplash.com/photo-1573140247632-f8fd74997d5c?w=400" }
+    ]
+  },
+  {
+    "id": 14,
+    "name": "OPT Chinese (F-6)",
+    "deliveryTime": "30–50 min",
+    "isAd": true,
+    "discount": "Special Combo",
+    "isFreeDelivery": true,
+    "image": "https://images.unsplash.com/photo-1552611052-33e04de081de?w=800",
+    "menu": [
+      { "id": 1401, "name": "Egg Fried Rice", "price": 650, "desc": "Authentic stir fry rice.", "img": "https://images.unsplash.com/photo-1603133872878-684f208fb84b?w=400" },
+      { "id": 1402, "name": "Chicken Manchurian", "price": 850, "desc": "Classic sweet & sour sauce.", "img": "https://images.unsplash.com/photo-1512485600893-b08ec1d59b1d?w=400" },
+      { "id": 1403, "name": "Kung Pao Chicken", "price": 950, "desc": "Spicy chicken with peanuts.", "img": "https://images.unsplash.com/photo-1525755662778-989d0524087e?w=400" },
+      { "id": 1404, "name": "Spring Rolls (4pcs)", "price": 350, "desc": "Crispy vegetable rolls.", "img": "https://images.unsplash.com/photo-1544025162-d76694265947?w=400" },
+      { "id": 1405, "name": "Hot & Sour Soup", "price": 450, "desc": "Traditional spicy soup.", "img": "https://images.unsplash.com/photo-1547592110-80347306232c?w=400" }
+    ]
+  },
+  {
+    "id": 15,
+    "name": "Chop Chop (F-7)",
+    "deliveryTime": "20–35 min",
+    "isAd": false,
+    "discount": null,
+    "isFreeDelivery": true,
+    "image": "https://images.unsplash.com/photo-1552611052-33e04de081de?w=800",
+    "menu": [
+      { "id": 1501, "name": "Beef Bowl", "price": 1150, "desc": "Sliced beef with sticky rice.", "img": "https://images.unsplash.com/photo-1512058560366-cd2427ff56f3?w=400" },
+      { "id": 1502, "name": "Chicken Katsu", "price": 950, "desc": "Fried chicken with curry sauce.", "img": "https://images.unsplash.com/photo-1525755662778-989d0524087e?w=400" },
+      { "id": 1503, "name": "Prawn Tempura", "price": 1400, "desc": "Golden fried crispy prawns.", "img": "https://images.unsplash.com/photo-1559183030-914b8a146911?w=400" },
+      { "id": 1504, "name": "Thai Green Curry", "price": 1250, "desc": "Coconut milk based spicy curry.", "img": "https://images.unsplash.com/photo-1455619452474-d2be8b1e70cd?w=400" },
+      { "id": 1505, "name": "Sticky Rice", "price": 300, "desc": "Authentic jasmine sticky rice.", "img": "https://images.unsplash.com/photo-1586201375761-83865001e31c?w=400" }
+    ]
+  },
+  {
+    "id": 16,
+    "name": "OPT Café (F-8)",
+    "deliveryTime": "15–30 min",
+    "isAd": false,
+    "discount": "Free Cookie",
+    "isFreeDelivery": true,
+    "image": "https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=800",
+    "menu": [
+      { "id": 1601, "name": "Club Sandwich", "price": 650, "desc": "Double decker chicken sandwich.", "img": "https://images.unsplash.com/photo-1524397057410-1e775ed476f3?w=400" },
+      { "id": 1602, "name": "Pasta Alfredo", "price": 850, "desc": "White sauce creamy pasta.", "img": "https://images.unsplash.com/photo-1645112481338-3560e9fd43ef?w=400" },
+      { "id": 1603, "name": "Caesar Salad", "price": 550, "desc": "Fresh greens with parmesan.", "img": "https://images.unsplash.com/photo-1550304943-4f24f54ddde9?w=400" },
+      { "id": 1604, "name": "Cappuccino", "price": 420, "desc": "Hot brewed coffee.", "img": "https://images.unsplash.com/photo-1534778101976-62847782c213?w=400" },
+      { "id": 1605, "name": "Fudge Cake", "price": 400, "desc": "Slice of rich chocolate cake.", "img": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=400" }
+    ]
+  },
+  {
+    "id": 17,
+    "name": "OPT Juice Bar (G-6)",
+    "deliveryTime": "15–25 min",
+    "isAd": false,
+    "discount": null,
+    "isFreeDelivery": true,
+    "image": "https://images.unsplash.com/photo-1543253687-c931c8e01820?w=800",
+    "menu": [
+      { "id": 1701, "name": "Fresh Orange Juice", "price": 350, "desc": "100% natural citrus juice.", "img": "https://images.unsplash.com/photo-1547514701-42782101795e?w=400" },
+      { "id": 1702, "name": "Mango Shake", "price": 450, "desc": "Creamy thick mango milk.", "img": "https://images.unsplash.com/photo-1534706936160-d5ee67737049?w=400" },
+      { "id": 1703, "name": "ABC Juice", "price": 400, "desc": "Apple, Beetroot, Carrot mix.", "img": "https://images.unsplash.com/photo-1613478223719-2ab802602423?w=400" },
+      { "id": 1704, "name": "Lemon Mint Soda", "price": 250, "desc": "Refreshing fizzy cooler.", "img": "https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?w=400" },
+      { "id": 1705, "name": "Pineapple Slush", "price": 380, "desc": "Iced blended pineapple.", "img": "https://images.unsplash.com/photo-1615478503562-ec2e8aa0e24e?w=400" }
+    ]
+  },
+  {
+    "id": 18,
+    "name": "OPT Sushi (F-10)",
+    "deliveryTime": "30–50 min",
+    "isAd": true,
+    "discount": "Rs. 300 off",
+    "isFreeDelivery": false,
+    "image": "https://images.unsplash.com/photo-1579871494447-9811cf80d66c?w=800",
+    "menu": [
+      { "id": 1801, "name": "California Roll", "price": 1250, "desc": "Crab, avocado, and cucumber.", "img": "https://images.unsplash.com/photo-1553621042-f6e147245754?w=400" },
+      { "id": 1802, "name": "Salmon Nigiri", "price": 1450, "desc": "Fresh salmon on rice.", "img": "https://images.unsplash.com/photo-1617196034183-421b4917c92d?w=400" },
+      { "id": 1803, "name": "Prawn Tempura", "price": 950, "desc": "Golden fried crispy prawns.", "img": "https://images.unsplash.com/photo-1559183030-914b8a146911?w=400" },
+      { "id": 1804, "name": "Dynamite Prawns", "price": 1350, "desc": "Spicy creamy shrimp bowl.", "img": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=400" },
+      { "id": 1805, "name": "Miso Soup", "price": 450, "desc": "Traditional Japanese broth.", "img": "https://images.unsplash.com/photo-1582890656184-ef0bbea050c8?w=400" }
+    ]
+  },
+  {
+    "id": 19,
+    "name": "Burger Lab (F-6)",
+    "deliveryTime": "20–35 min",
+    "isAd": false,
+    "discount": "Student Deal",
+    "isFreeDelivery": true,
+    "image": "https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=800",
+    "menu": [
+      { "id": 1901, "name": "The Doppler", "price": 850, "desc": "Quadruple smash burger.", "img": "https://images.unsplash.com/photo-1594212699903-ec8a3eca50f5?w=400" },
+      { "id": 1902, "name": "Big Bang", "price": 750, "desc": "Double beef patty burger.", "img": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=400" },
+      { "id": 1903, "name": "Animal Fries", "price": 450, "desc": "Fries with cheese & onions.", "img": "https://images.unsplash.com/photo-1585109649139-366815a0d713?w=400" },
+      { "id": 1904, "name": "Firehouse", "price": 690, "desc": "Spicy chicken burger.", "img": "https://images.unsplash.com/photo-1521305916504-4a1121188589?w=400" },
+      { "id": 1905, "name": "Gourmet Shake", "price": 550, "desc": "Thick Nutella blended shake.", "img": "https://images.unsplash.com/photo-1572490122747-3968b75cc699?w=400" }
+    ]
+  },
+  {
+    "id": 20,
+    "name": "OPT Thai (F-7)",
+    "deliveryTime": "25–40 min",
+    "isAd": false,
+    "discount": null,
+    "isFreeDelivery": true,
+    "image": "https://images.unsplash.com/photo-1551024506-0bccd828d307?w=800",
+    "menu": [
+      { "id": 2001, "name": "Pad Thai Noodles", "price": 1250, "desc": "Famous Thai stir-fry noodles.", "img": "https://images.unsplash.com/photo-1559339352-11d035aa65de?w=400" },
+      { "id": 2002, "name": "Red Curry", "price": 1400, "desc": "Spicy Thai red chicken curry.", "img": "https://images.unsplash.com/photo-1455619452474-d2be8b1e70cd?w=400" },
+      { "id": 2003, "name": "Tom Yum Soup", "price": 650, "desc": "Sour and spicy shrimp soup.", "img": "https://images.unsplash.com/photo-1547592110-80347306232c?w=400" },
+      { "id": 2004, "name": "Pineapple Rice", "price": 950, "desc": "Thai style fruit fried rice.", "img": "https://images.unsplash.com/photo-1603133872878-684f208fb84b?w=400" },
+      { "id": 2005, "name": "Mango Sticky Rice", "price": 750, "desc": "Sweet Thai dessert.", "img": "https://images.unsplash.com/photo-1586201375761-83865001e31c?w=400" }
+    ]
+  },
+  {
+    "id": 21,
+    "name": "OPT Pasta (G-6)",
+    "deliveryTime": "20–35 min",
+    "isAd": false,
+    "discount": "Cheesy Deal",
+    "isFreeDelivery": true,
+    "image": "https://images.unsplash.com/photo-1561758033-d89a9ad46330?w=800",
+    "menu": [
+      { "id": 2101, "name": "Penne Arrabbiata", "price": 850, "desc": "Spicy tomato sauce pasta.", "img": "https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=400" },
+      { "id": 2102, "name": "Lasagna", "price": 1200, "desc": "Beef layers with cheese.", "img": "https://images.unsplash.com/photo-1574894709920-11b28e7367e3?w=400" },
+      { "id": 2103, "name": "Chicken Alfredo", "price": 950, "desc": "White cream sauce penne.", "img": "https://images.unsplash.com/photo-1645112481338-3560e9fd43ef?w=400" },
+      { "id": 2104, "name": "Mac & Cheese", "price": 750, "desc": "Classic American cheese pasta.", "img": "https://images.unsplash.com/photo-1543339308-43e59d6b73a6?w=400" },
+      { "id": 2105, "name": "Garlic Toast", "price": 250, "desc": "Crispy bread with garlic.", "img": "https://images.unsplash.com/photo-1573140247632-f8fd74997d5c?w=400" }
+    ]
+  },
+  {
+    "id": 22,
+    "name": "OPT Steakhouse (F-8)",
+    "deliveryTime": "30–50 min",
+    "isAd": true,
+    "discount": "Dinner Special",
+    "isFreeDelivery": false,
+    "image": "https://images.unsplash.com/photo-1600891964092-4316c288032e?w=800",
+    "menu": [
+      { "id": 2201, "name": "Ribeye Steak", "price": 2800, "desc": "Prime cut grilled beef.", "img": "https://images.unsplash.com/photo-1546241072-48010ad28c2c?w=400" },
+      { "id": 2202, "name": "Pepper Steak", "price": 2400, "desc": "Beef with black pepper sauce.", "img": "https://images.unsplash.com/photo-1600891964092-4316c288032e?w=400" },
+      { "id": 2203, "name": "Mushroom Chicken", "price": 1600, "desc": "Grilled chicken mushroom.", "img": "https://images.unsplash.com/photo-1633945274405-b6c8069047b0?w=400" },
+      { "id": 2204, "name": "Mashed Potatoes", "price": 450, "desc": "Creamy buttery potatoes.", "img": "https://images.unsplash.com/photo-1600335895229-6e75511892c8?w=400" },
+      { "id": 2205, "name": "Grilled Asparagus", "price": 550, "desc": "Fresh seasoned greens.", "img": "https://images.unsplash.com/photo-1515471209610-dae1c9a581c5?w=400" }
+    ]
+  },
+  {
+    "id": 23,
+    "name": "OPT Bakery (G-9)",
+    "deliveryTime": "15–25 min",
+    "isAd": false,
+    "discount": null,
+    "isFreeDelivery": true,
+    "image": "https://images.unsplash.com/photo-1509440159596-0249088772ff?w=800",
+    "menu": [
+      { "id": 2301, "name": "Chocolate Cake", "price": 1800, "desc": "Rich 2lb fudge cake.", "img": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=400" },
+      { "id": 2302, "name": "Assorted Biscuits", "price": 600, "desc": "Mix tea biscuits 500g.", "img": "https://images.unsplash.com/photo-1509440159596-0249088772ff?w=400" },
+      { "id": 2303, "name": "Fruit Bun", "price": 150, "desc": "Soft sweet bread bun.", "img": "https://images.unsplash.com/photo-1509440159596-0249088772ff?w=400" },
+      { "id": 2304, "name": "Puff Pastry", "price": 120, "desc": "Savory chicken puff.", "img": "https://images.unsplash.com/photo-1623334044303-24266e109bb8?w=400" },
+      { "id": 2305, "name": "Cupcake Box", "price": 850, "desc": "Box of 4 chocolate cupcakes.", "img": "https://images.unsplash.com/photo-1576618148400-f54bed99fcfd?w=400" }
+    ]
+  },
+  {
+    "id": 24,
+    "name": "The Pizza Factory (F-11)",
+    "deliveryTime": "25–40 min",
+    "isAd": false,
+    "discount": "Large Pizza Deal",
+    "isFreeDelivery": true,
+    "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=800",
+    "menu": [
+      { "id": 2401, "name": "Crown Crust Pizza", "price": 1600, "desc": "Pizza with kabab crust.", "img": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=400" },
+      { "id": 2402, "name": "Italian Pizza", "price": 1400, "desc": "Thin crust authentic pizza.", "img": "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=400" },
+      { "id": 2403, "name": "Pizza Fries", "price": 550, "desc": "Fries topped with pepperoni.", "img": "https://images.unsplash.com/photo-1585109649139-366815a0d713?w=400" },
+      { "id": 2404, "name": "Calzone", "price": 850, "desc": "Folded pizza with stuffing.", "img": "https://images.unsplash.com/photo-1628840042765-356cda07504e?w=400" },
+      { "id": 2405, "name": "Diet Coke", "price": 120, "desc": "Can of sugar-free soda.", "img": "https://images.unsplash.com/photo-1622483767028-3f66f32aef97?w=400" }
+    ]
+  },
+  {
+    "id": 25,
+    "name": "OPT Grill (F-6)",
+    "deliveryTime": "20–35 min",
+    "isAd": false,
+    "discount": null,
+    "isFreeDelivery": true,
+    "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=800",
+    "menu": [
+      { "id": 2501, "name": "Grilled Fish", "price": 1850, "desc": "Marinated grilled white fish.", "img": "https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?w=400" },
+      { "id": 2502, "name": "BBQ Platter", "price": 2500, "desc": "Mix of boti, kabab and tikka.", "img": "https://images.unsplash.com/photo-1544025162-d76694265947?w=400" },
+      { "id": 2503, "name": "Seekh Kabab", "price": 900, "desc": "Spicy minced meat kababs.", "img": "https://images.unsplash.com/photo-1599487488170-d11ec9c172f0?w=400" },
+      { "id": 2504, "name": "Afghani Boti", "price": 1100, "desc": "Mild creamy chicken boti.", "img": "https://images.unsplash.com/photo-1603360946369-dc9bb6258143?w=400" },
+      { "id": 2505, "name": "Kandhari Naan", "price": 100, "desc": "Large sesame seeded bread.", "img": "https://images.unsplash.com/photo-1610192244261-3f33de3f55e4?w=400" }
+    ]
+  },
+  {
+    "id": 26,
+    "name": "BBQ Tonight (F-7)",
+    "deliveryTime": "25–40 min",
+    "isAd": false,
+    "discount": "Family Platter",
+    "isFreeDelivery": false,
+    "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=800",
+    "menu": [
+      { "id": 2601, "name": "Chicken Karahi", "price": 1450, "desc": "Rich tomato based chicken.", "img": "https://images.unsplash.com/photo-1633945274405-b6c8069047b0?w=400" },
+      { "id": 2602, "name": "Behari Kabab", "price": 1150, "desc": "Thinly sliced spicy beef.", "img": "https://images.unsplash.com/photo-1599487488170-d11ec9c172f0?w=400" },
+      { "id": 2603, "name": "Mutton Chops", "price": 2200, "desc": "Grilled masala mutton chops.", "img": "https://images.unsplash.com/photo-1603360946369-dc9bb6258143?w=400" },
+      { "id": 2604, "name": "Garlic Naan", "price": 120, "desc": "Buttery garlic flavored naan.", "img": "https://images.unsplash.com/photo-1610192244261-3f33de3f55e4?w=400" },
+      { "id": 2605, "name": "Raita", "price": 150, "desc": "Mint yogurt condiment.", "img": "https://images.unsplash.com/photo-1488477181946-6428a0291777?w=400" }
+    ]
+  },
+  {
+    "id": 27,
+    "name": "OPT Indian (G-6)",
+    "deliveryTime": "25–45 min",
+    "isAd": true,
+    "discount": "Rs. 100 off",
+    "isFreeDelivery": true,
+    "image": "https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=800",
+    "menu": [
+      { "id": 2701, "name": "Butter Chicken", "price": 1250, "desc": "Creamy tomato chicken curry.", "img": "https://images.unsplash.com/photo-1603894584373-5ac82b2ae398?w=400" },
+      { "id": 2702, "name": "Biryani", "price": 850, "desc": "Aromatic chicken rice bowl.", "img": "https://images.unsplash.com/photo-1563379091339-03b21bc4a4f8?w=400" },
+      { "id": 2703, "name": "Palak Paneer", "price": 950, "desc": "Spinach with cottage cheese.", "img": "https://images.unsplash.com/photo-1601050690597-df0568f70950?w=400" },
+      { "id": 2704, "name": "Daal Makhani", "price": 750, "desc": "Slow cooked black lentils.", "img": "https://images.unsplash.com/photo-1546833999-b9f581a1996d?w=400" },
+      { "id": 2705, "name": "Gulab Jamun", "price": 350, "desc": "Sweet syrup balls.", "img": "https://images.unsplash.com/photo-1589119908995-c6837fa14848?w=400" }
+    ]
+  },
+  {
+    "id": 28,
+    "name": "OPT Lebanese (F-10)",
+    "deliveryTime": "20–35 min",
+    "isAd": false,
+    "discount": null,
+    "isFreeDelivery": true,
+    "image": "https://images.unsplash.com/photo-1541518763669-27f71462aed0?w=800",
+    "menu": [
+      { "id": 2801, "name": "Chicken Shawarma", "price": 450, "desc": "Authentic Arabic style wrap.", "img": "https://images.unsplash.com/photo-1561651823-34fed0225304?w=400" },
+      { "id": 2802, "name": "Hummus & Pita", "price": 650, "desc": "Chickpea dip with warm bread.", "img": "https://images.unsplash.com/photo-1574784232581-1934339f4089?w=400" },
+      { "id": 2803, "name": "Falafel Plate", "price": 750, "desc": "6pcs falafel with tahini.", "img": "https://images.unsplash.com/photo-1593001874117-c99c4edb3187?w=400" },
+      { "id": 2804, "name": "Tabbouleh", "price": 550, "desc": "Parsley and bulgur salad.", "img": "https://images.unsplash.com/photo-1540420773420-3366772f4999?w=400" },
+      { "id": 2805, "name": "Baklava", "price": 450, "desc": "Sweet layered honey pastry.", "img": "https://images.unsplash.com/photo-1519676867240-f031ee04a113?w=400" }
+    ]
+  },
+  {
+    "id": 29,
+    "name": "OPT Mexican (F-8)",
+    "deliveryTime": "25–40 min",
+    "isAd": false,
+    "discount": "Taco Tuesday",
+    "isFreeDelivery": true,
+    "image": "https://images.unsplash.com/photo-1565299585323-38d6b0865b47?w=800",
+    "menu": [
+      { "id": 2901, "name": "Beef Tacos", "price": 950, "desc": "3pcs hard shell beef tacos.", "img": "https://images.unsplash.com/photo-1551504734-5ee1c4a1479b?w=400" },
+      { "id": 2902, "name": "Chicken Burrito", "price": 1150, "desc": "Loaded chicken and bean wrap.", "img": "https://images.unsplash.com/photo-1626700051175-6818013e1d4f?w=400" },
+      { "id": 2903, "name": "Nachos Supreme", "price": 850, "desc": "Chips with cheese & jalapenos.", "img": "https://images.unsplash.com/photo-1513456852971-30c0b8199d4d?w=400" },
+      { "id": 2904, "name": "Quesadilla", "price": 990, "desc": "Cheesy grilled tortilla.", "img": "https://images.unsplash.com/photo-1599974579688-8dbdd335c77f?w=400" },
+      { "id": 2905, "name": "Churros", "price": 550, "desc": "Fried dough with chocolate.", "img": "https://images.unsplash.com/photo-1578652345592-80738600d892?w=400" }
+    ]
+  },
+  {
+    "id": 30,
+    "name": "OPT Mediterranean (G-9)",
+    "deliveryTime": "20–35 min",
+    "isAd": false,
+    "discount": null,
+    "isFreeDelivery": true,
+    "image": "https://images.unsplash.com/photo-1544124499-58962f3bd3a8?w=800",
+    "menu": [
+      { "id": 3001, "name": "Greek Salad", "price": 650, "desc": "Olives, feta and cucumber.", "img": "https://images.unsplash.com/photo-1540420773420-3366772f4999?w=400" },
+      { "id": 3002, "name": "Kebab Platter", "price": 1650, "desc": "Mixed grilled meat skewers.", "img": "https://images.unsplash.com/photo-1599487488170-d11ec9c172f0?w=400" },
+      { "id": 3003, "name": "Rice Pilaf", "price": 450, "desc": "Seasoned buttered rice.", "img": "https://images.unsplash.com/photo-1586201375761-83865001e31c?w=400" },
+      { "id": 3004, "name": "Lentil Soup", "price": 400, "desc": "Traditional yellow soup.", "img": "https://images.unsplash.com/photo-1547592110-80347306232c?w=400" },
+      { "id": 3005, "name": "Pita Bread", "price": 80, "desc": "Soft fresh baked pita.", "img": "https://images.unsplash.com/photo-1610192244261-3f33de3f55e4?w=400" }
+    ]
+  },
+  {
+    "id": 31,
+    "name": "OPT Cafe Latte (F-6)",
+    "deliveryTime": "15–25 min",
+    "isAd": false,
+    "discount": null,
+    "isFreeDelivery": true,
+    "image": "https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=800",
+    "menu": [
+      { "id": 3101, "name": "Iced Latte", "price": 550, "desc": "Cold espresso milk drink.", "img": "https://images.unsplash.com/photo-1517701604599-bb29b565090c?w=400" },
+      { "id": 3102, "name": "Cappuccino", "price": 450, "desc": "Hot foamy coffee.", "img": "https://images.unsplash.com/photo-1534778101976-62847782c213?w=400" },
+      { "id": 3103, "name": "Croissant", "price": 350, "desc": "Buttery French pastry.", "img": "https://images.unsplash.com/photo-1530610476181-d83430b64dcd?w=400" },
+      { "id": 3104, "name": "Mocha Coffee", "price": 580, "desc": "Coffee with chocolate sauce.", "img": "https://images.unsplash.com/photo-1572490122747-3968b75cc699?w=400" },
+      { "id": 3105, "name": "Cheesecake", "price": 650, "desc": "Slice of New York style cake.", "img": "https://images.unsplash.com/photo-1533134242443-d4fd215305ad?w=400" }
+    ]
+  },
+  {
+    "id": 32,
+    "name": "OPT Donuts (F-7)",
+    "deliveryTime": "15–25 min",
+    "isAd": true,
+    "discount": "Box of 6 Deal",
+    "isFreeDelivery": true,
+    "image": "https://images.unsplash.com/photo-1527515637462-cff94eecc1ac?w=800",
+    "menu": [
+      { "id": 3201, "name": "Chocolate Glazed", "price": 250, "desc": "Classic donut with chocolate.", "img": "https://images.unsplash.com/photo-1551024506-0bccd828d307?w=400" },
+      { "id": 3202, "name": "Strawberry Donut", "price": 250, "desc": "Pink frosted sweet donut.", "img": "https://images.unsplash.com/photo-1514517604298-cf80e0fb7f1e?w=400" },
+      { "id": 3203, "name": "Caramel Donut", "price": 280, "desc": "Topped with caramel drizzle.", "img": "https://images.unsplash.com/photo-1533930250856-724ca6805f67?w=400" },
+      { "id": 3204, "name": "Sprinkled Donut", "price": 250, "desc": "Vanilla frost with sprinkles.", "img": "https://images.unsplash.com/photo-1527515637462-cff94eecc1ac?w=400" },
+      { "id": 3205, "name": "Boston Cream", "price": 320, "desc": "Custard filled chocolate top.", "img": "https://images.unsplash.com/photo-1551024506-0bccd828d307?w=400" }
+    ]
+  },
+  {
+    "id": 33,
+    "name": "OPT Ice Cream (G-6)",
+    "deliveryTime": "15–25 min",
+    "isAd": false,
+    "discount": null,
+    "isFreeDelivery": true,
+    "image": "https://images.unsplash.com/photo-1501443762994-82bd5dabb892?w=800",
+    "menu": [
+      { "id": 3301, "name": "Vanilla Double", "price": 350, "desc": "Two scoops of vanilla.", "img": "https://images.unsplash.com/photo-1570197788417-0e82375c9371?w=400" },
+      { "id": 3302, "name": "Belgium Chocolate", "price": 450, "desc": "Rich dark chocolate ice cream.", "img": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=400" },
+      { "id": 3303, "name": "Pistachio", "price": 400, "desc": "Traditional nutty flavor.", "img": "https://images.unsplash.com/photo-1517093157656-b99917d64677?w=400" },
+      { "id": 3304, "name": "Banana Split", "price": 750, "desc": "3 scoops with banana & syrup.", "img": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=400" },
+      { "id": 3305, "name": "Sundae Cup", "price": 550, "desc": "Ice cream with hot fudge.", "img": "https://images.unsplash.com/photo-1560008581-09826d1de69e?w=400" }
+    ]
+  },
+  {
+    "id": 34,
+    "name": "OPT Sandwiches (F-8)",
+    "deliveryTime": "20–35 min",
+    "isAd": false,
+    "discount": "Fresh Prep",
+    "isFreeDelivery": true,
+    "image": "https://images.unsplash.com/photo-1534353473418-4cfa6c56fd38?w=800",
+    "menu": [
+      { "id": 3401, "name": "Roast Beef Sub", "price": 950, "desc": "Thinly sliced beef sandwich.", "img": "https://images.unsplash.com/photo-1553909489-cd47e0907d3f?w=400" },
+      { "id": 3402, "name": "Turkey Breast Sub", "price": 1050, "desc": "Healthy lean turkey sandwich.", "img": "https://images.unsplash.com/photo-1590947132387-155cc02f3212?w=400" },
+      { "id": 3403, "name": "Veggie Sandwich", "price": 650, "desc": "Fresh garden veggie mix.", "img": "https://images.unsplash.com/photo-1534353473418-4cfa6c56fd38?w=400" },
+      { "id": 3404, "name": "Egg Mayo Sub", "price": 550, "desc": "Boiled eggs and creamy mayo.", "img": "https://images.unsplash.com/photo-1521390188846-e2a3a97453a0?w=400" },
+      { "id": 3405, "name": "Potato Salad", "price": 350, "desc": "Side of cold potato salad.", "img": "https://images.unsplash.com/photo-1500412028680-99440624838b?w=400" }
+    ]
+  },
+  {
+    "id": 35,
+    "name": "OPT Wraps (F-10)",
+    "deliveryTime": "20–35 min",
+    "isAd": false,
+    "discount": null,
+    "isFreeDelivery": true,
+    "image": "https://images.unsplash.com/photo-1626700051175-6818013e1d4f?w=800",
+    "menu": [
+      { "id": 3501, "name": "Chicken Gyro", "price": 650, "desc": "Grilled chicken in wrap.", "img": "https://images.unsplash.com/photo-1561651823-34fed0225304?w=400" },
+      { "id": 3502, "name": "Zesty Wrap", "price": 550, "desc": "Spicy vegetable and cheese.", "img": "https://images.unsplash.com/photo-1626700051175-6818013e1d4f?w=400" },
+      { "id": 3503, "name": "Prawn Wrap", "price": 950, "desc": "Crispy fried prawns in tortilla.", "img": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=400" },
+      { "id": 3504, "name": "Falafel Wrap", "price": 500, "desc": "Healthy chickpea fritter wrap.", "img": "https://images.unsplash.com/photo-1593001874117-c99c4edb3187?w=400" },
+      { "id": 3505, "name": "Fries Box", "price": 250, "desc": "Simple salted fries.", "img": "https://images.unsplash.com/photo-1573080496219-bb080dd4f877?w=400" }
+    ]
+  },
+  {
+    "id": 36,
+    "name": "OPT Salads (G-9)",
+    "deliveryTime": "15–25 min",
+    "isAd": false,
+    "discount": "Healthy Choice",
+    "isFreeDelivery": true,
+    "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=800",
+    "menu": [
+      { "id": 3601, "name": "Quinoa Salad", "price": 1100, "desc": "Superfood salad with quinoa.", "img": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=400" },
+      { "id": 3602, "name": "Chicken Caesar", "price": 950, "desc": "Grilled chicken and lettuce.", "img": "https://images.unsplash.com/photo-1550304943-4f24f54ddde9?w=400" },
+      { "id": 3603, "name": "Garden Salad", "price": 650, "desc": "Simple mix of fresh veggies.", "img": "https://images.unsplash.com/photo-1540420773420-3366772f4999?w=400" },
+      { "id": 3604, "name": "Fruit Bowl", "price": 450, "desc": "Fresh seasonal sliced fruits.", "img": "https://images.unsplash.com/photo-1586201375761-83865001e31c?w=400" },
+      { "id": 3605, "name": "Juice Shot", "price": 150, "desc": "Ginger and lemon health shot.", "img": "https://images.unsplash.com/photo-1613478223719-2ab802602423?w=400" }
+    ]
+  },
+  {
+    "id": 37,
+    "name": "OPT Smoothies (F-6)",
+    "deliveryTime": "15–25 min",
+    "isAd": false,
+    "discount": null,
+    "isFreeDelivery": true,
+    "image": "https://images.unsplash.com/photo-1553530666-ba11a7da3888?w=800",
+    "menu": [
+      { "id": 3701, "name": "Berry Blast", "price": 650, "desc": "Mixed berry blended smoothie.", "img": "https://images.unsplash.com/photo-1553530666-ba11a7da3888?w=400" },
+      { "id": 3702, "name": "Green Detox", "price": 550, "desc": "Spinach, kale and apple.", "img": "https://images.unsplash.com/photo-1613478223719-2ab802602423?w=400" },
+      { "id": 3703, "name": "Tropical Sun", "price": 600, "desc": "Mango, pineapple and coconut.", "img": "https://images.unsplash.com/photo-1543253687-c931c8e01820?w=400" },
+      { "id": 3704, "name": "Peanut Butter Shake", "price": 750, "desc": "High protein PB shake.", "img": "https://images.unsplash.com/photo-1572490122747-3968b75cc699?w=400" },
+      { "id": 3705, "name": "Protein Bar", "price": 300, "desc": "Healthy snack bar.", "img": "https://images.unsplash.com/photo-1611095777215-847125ff1868?w=400" }
+    ]
+  },
+  {
+    "id": 38,
+    "name": "OPT Coffee (F-7)",
+    "deliveryTime": "15–25 min",
+    "isAd": false,
+    "discount": "Morning Brew",
+    "isFreeDelivery": true,
+    "image": "https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=800",
+    "menu": [
+      { "id": 3801, "name": "Americano", "price": 380, "desc": "Black coffee with water.", "img": "https://images.unsplash.com/photo-1534778101976-62847782c213?w=400" },
+      { "id": 3802, "name": "Latte", "price": 480, "desc": "Espresso with extra milk.", "img": "https://images.unsplash.com/photo-1517701604599-bb29b565090c?w=400" },
+      { "id": 3803, "name": "Flat White", "price": 520, "desc": "Strong milky coffee.", "img": "https://images.unsplash.com/photo-1534778101976-62847782c213?w=400" },
+      { "id": 3804, "name": "Hot Chocolate", "price": 550, "desc": "Rich creamy cocoa.", "img": "https://images.unsplash.com/photo-1544787210-222004128fd9?w=400" },
+      { "id": 3805, "name": "Cookie Box", "price": 850, "desc": "6pcs assorted cookies.", "img": "https://images.unsplash.com/photo-1499636136210-6f4ee915583e?w=400" }
+    ]
+  },
+  {
+    "id": 39,
+    "name": "OPT Tea House (G-6)",
+    "deliveryTime": "15–25 min",
+    "isAd": false,
+    "discount": null,
+    "isFreeDelivery": true,
+    "image": "https://images.unsplash.com/photo-1544787210-222004128fd9?w=800",
+    "menu": [
+      { "id": 3901, "name": "Karak Chai", "price": 150, "desc": "Strong traditional tea.", "img": "https://images.unsplash.com/photo-1544787210-222004128fd9?w=400" },
+      { "id": 3902, "name": "Cardamom Tea", "price": 180, "desc": "Tea infused with cardamom.", "img": "https://images.unsplash.com/photo-1594631252845-29fc4cc8cde9?w=400" },
+      { "id": 3903, "name": "Samosa Plate", "price": 250, "desc": "2pcs crispy potato samosas.", "img": "https://images.unsplash.com/photo-1601050690597-df0568f70950?w=400" },
+      { "id": 3904, "name": "Mix Pakora", "price": 400, "desc": "1kg crispy vegetable fritters.", "img": "https://images.unsplash.com/photo-1601050690597-df0568f70950?w=400" },
+      { "id": 3905, "name": "Jalebi", "price": 300, "desc": "Sweet fried dessert 250g.", "img": "https://images.unsplash.com/photo-1589119908995-c6837fa14848?w=400" }
+    ]
+  },
+  {
+    "id": 40,
+    "name": "OPT Burgers (F-6)",
+    "deliveryTime": "20–35 min",
+    "isAd": false,
+    "discount": "Classic Deal",
+    "isFreeDelivery": true,
+    "image": "https://images.unsplash.com/photo-1586190848861-99aa4a171e90?w=800",
+    "menu": [
+      { "id": 4001, "name": "Smash Burger", "price": 850, "desc": "Crispy beef smash burger.", "img": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=400" },
+      { "id": 4002, "name": "Veggie Burger", "price": 650, "desc": "Potato and herb patty burger.", "img": "https://images.unsplash.com/photo-1550547660-d9450f859349?w=400" },
+      { "id": 4003, "name": "Cheese Burger", "price": 750, "desc": "Beef patty with double cheese.", "img": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=400" },
+      { "id": 4004, "name": "Chicken Steak Burger", "price": 950, "desc": "Grilled chicken breast fillet.", "img": "https://images.unsplash.com/photo-1510627489930-0c1b0ba84674?w=400" },
+      { "id": 4005, "name": "Onion Rings", "price": 350, "desc": "Crispy battered golden rings.", "img": "https://images.unsplash.com/photo-1639122611484-c632b778844b?w=400" }
+    ]
+  }
+]
