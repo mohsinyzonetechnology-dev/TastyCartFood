@@ -44,7 +44,7 @@ const RestaurantCard = memo(({ restaurant }: Props) => {
         <CardMedia
           component="img"
           height="200"
-          image={restaurant.image}
+          image={restaurant.image} 
           loading="lazy"
         />
 
@@ -95,3 +95,4 @@ const RestaurantCard = memo(({ restaurant }: Props) => {
 });
 
 export default RestaurantCard;
+ 

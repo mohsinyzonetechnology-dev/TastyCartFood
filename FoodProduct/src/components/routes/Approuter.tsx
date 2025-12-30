@@ -5,10 +5,30 @@ import PandaMart from "../../pages/PandaMart";
 import PandaShop from "../../pages/PandaShop";
 import CateringCard from "../../pages/Caterers";
 import AuthPage from "../../Auth/AuthForm";
-// Agar ye pages abhi nahi banaye toh temporary empty div use kar sakte hain
-// const Placeholder = ({ name }: { name: string }) => <div style={{padding: '20px'}}><h1>{name} Page Coming Soon</h1></div>;
+import type { MenuItem } from "../../types";
+import CartSidebar from "../../pages/Carts/cartSidbar";
+import { useCartStore } from "../../store/useCartStor";
 
+ 
 function AppRouter() {
+
+  // Zustand cart store
+  const cart = useCartStore((state) => state.cart);
+  const addItem = useCartStore((state) => state.addItem);
+  const updateQty = useCartStore((state) => state.updateQty);
+  const clearCart = useCartStore((state) => state.clearCart);
+  const total = cart.reduce((sum, item) => sum + item.price * item.quantity, 0);
+
+   (item: MenuItem) => {
+    addItem({
+      id: item.id,
+      name: item.name,
+      price: item.price,
+      quantity: 1, 
+    });
+  };
+
+
   return (
     <BrowserRouter>
       <Routes>
@@ -17,13 +37,21 @@ function AppRouter() {
         <Route path="/home" element={<Home />} />
         <Route path="/pickup" element={<PickUp />} />
         <Route path="/pandamart" element={<PandaMart />} />
-        <Route path="/shops" element={<PandaShop/>} />
-        <Route path="/caterers" element={<CateringCard/>} /> 
+        <Route path="/shops" element={<PandaShop />} />
+        <Route path="/caterers" element={<CateringCard />} />
         {/* Baki routes ko placeholder de diya hai takay navigation crash na ho */}
-        
-        
+
+
         {/* Cart aur Login ke routes bhi yahan add honge */}
-        <Route path="/cart" element={<Home />} />
+        <Route path="/cart" element={
+          <CartSidebar
+            cart={cart}
+            total={total}
+            onAdd={(id) => updateQty(id, 1)}
+            onRemove={(id) => updateQty(id, -1)}
+            clearCart={clearCart}
+          />
+        } />
         <Route path="/login" element={<AuthPage />} />
       </Routes>
     </BrowserRouter>

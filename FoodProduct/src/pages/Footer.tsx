@@ -6,13 +6,13 @@ import {
   Typography, 
   Link, 
   Stack, 
-  IconButton, 
+  //IconButton, 
   Divider 
 } from '@mui/material';
 import { 
-  Facebook, 
-  Instagram, 
-  Twitter, 
+  // Facebook, 
+  // Instagram, 
+  // Twitter, 
   Language, 
   Apple, 
   PlayArrow 
@@ -20,7 +20,7 @@ import {
 
 const Footer = () => {
   return (
-    <Box sx={{ bgcolor: '#fff', borderTop: '1px solid #ebebeb', pt: 8, pb: 4, mt: 10 }}>
+    <Box  sx={{ bgcolor: '#fff', borderTop: '1px solid #ebebeb', pt: 8, pb: 4, mt: 10 }}>
       <Container maxWidth="lg">
         <Grid container spacing={4}>
           
@@ -36,11 +36,11 @@ const Footer = () => {
               © 2025 TastyCart. <br />
               Food delivery in Islamabad & across Pakistan.
             </Typography>
-            <Stack direction="row" spacing={1}>
+            {/* <Stack direction="row" z-index={999} spacing={1}>
               <IconButton size="small" sx={{ border: '1px solid #ddd' }}><Facebook fontSize="small" /></IconButton>
               <IconButton size="small" sx={{ border: '1px solid #ddd' }}><Instagram fontSize="small" /></IconButton>
               <IconButton size="small" sx={{ border: '1px solid #ddd' }}><Twitter fontSize="small" /></IconButton>
-            </Stack>
+            </Stack> */}
           </Grid>
 
           {/* 2. Customer Care */}

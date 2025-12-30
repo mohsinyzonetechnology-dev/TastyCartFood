@@ -1,16 +1,13 @@
-import { create } from 'zustand';
-import type { ShopMenu } from '../types';
-import shopDataRaw from '../data/shop.json'; // Raw import
+import { create } from "zustand";
+import shopData from "../data/shopMenu.json";
+import type { ShopMenu } from "../types";
 
-// TypeScript ko batayein ke yeh data ShopMenu ka array hi hai
-const shopData = shopDataRaw as unknown as ShopMenu[];
-
-interface ShopMenuStore {
+interface ShopMenuState {
   shops: ShopMenu[];
   init: () => void;
 }
- 
-export const useShopStoreMenu = create<ShopMenuStore>((set) => ({
-  shops: shopData as ShopMenu[], // Khali [] ki jagah direct data rakhein
+
+export const useShopStoreMenu = create<ShopMenuState>((set) => ({
+  shops: [],
   init: () => set({ shops: shopData as ShopMenu[] }),
 }));

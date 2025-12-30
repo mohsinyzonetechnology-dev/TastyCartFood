@@ -16,7 +16,7 @@ const Home = () => {
         <Box display="flex" justifyContent="space-between" mb={4}>
           <Typography variant="h4" fontWeight={600}>
             Popular Restaurants
-          </Typography>
+          </Typography> 
 
           <Typography
             sx={{

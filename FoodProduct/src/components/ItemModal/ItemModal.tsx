@@ -126,4 +126,4 @@ const ItemModal = ({ item, open, onClose, onAddToCart, onRemoveFromCart }: Props
   );
 };
 
-export default ItemModal;
+export default ItemModal; 

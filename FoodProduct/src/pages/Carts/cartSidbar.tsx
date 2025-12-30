@@ -47,7 +47,7 @@ const CartSidebar = ({ cart, total, onAdd, onRemove, clearCart }: Props) => {
   };
 
   return (
-    <Paper elevation={3} sx={{ position: "sticky", top: 20, p: 3, borderRadius: "12px" }}>
+    <Paper elevation={3} z-index={1000} sx={{ position: "sticky", top: 20, p: 3, borderRadius: "12px", }}>
       <Typography variant="h6" fontWeight="bold" mb={2} textAlign="center">Your cart</Typography>
 
       <Box sx={{ maxHeight: "50vh", overflowY: "auto", mb: 2 }}>
@@ -61,7 +61,19 @@ const CartSidebar = ({ cart, total, onAdd, onRemove, clearCart }: Props) => {
                 <Typography variant="caption" color="#D70F64">Rs. {item.price}</Typography>
               </Box>
               <Box sx={{ display: "flex", alignItems: "center", gap: 1, bgcolor: "#f5f5f5", borderRadius: "20px", px: 1 }}>
-                <IconButton size="small" onClick={() => onRemove(item.id)}><Remove fontSize="small" /></IconButton>
+               <IconButton
+                  size="small"
+                  onClick={() => {
+                    if (item.quantity === 1) {
+                      // Agar quantity 1 hai aur "-" click hota hai, remove item from cart
+                      onRemove(item.id); // store me remove ka logic hona chahiye
+                    } else {
+                      onRemove(item.id); // sirf -1
+                    }
+                  }}
+                >
+                  <Remove fontSize="small" />
+                </IconButton>
                 <Typography variant="body2">{item.quantity}</Typography>
                 <IconButton size="small" onClick={() => onAdd(item.id)}><Add fontSize="small" /></IconButton>
               </Box>
